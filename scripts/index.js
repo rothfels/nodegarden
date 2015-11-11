@@ -9,6 +9,9 @@ var nodeGarden = new NodeGarden($container)
 // start simulation
 nodeGarden.start()
 
+// make the dots white instead of black
+nodeGarden.toggleNightMode()
+
 var resetNode = 0
 
 $container.addEventListener('click', function (e) {
