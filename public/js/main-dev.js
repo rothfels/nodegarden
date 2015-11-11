@@ -249,7 +249,7 @@
   };
 
   var pixelRatio = window.devicePixelRatio;
-  var $container = document.getElementById('container');
+  var $container = document.getElementById('nodegarden-container');
 
   var nodeGarden = new NodeGarden($container);
 
